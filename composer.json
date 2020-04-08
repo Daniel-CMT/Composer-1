@@ -1,0 +1,14 @@
+{
+    "name": "wilder2019/composer-1",
+    "description": "Quete composer",
+    "authors": [
+        {
+            "name": "Daniel-CMT",
+            "email": "danielclement736@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"App\\":"src/"}
+    }
+}
