@@ -4,4 +4,6 @@ require '../vendor/autoload.php';
 
 use App\Wcs\Hello; 
 
-echo Hello::talk();
+$hello = new Hello();
+
+echo $hello->talk();
